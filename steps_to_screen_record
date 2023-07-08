@@ -1,0 +1,22 @@
+There are a few steps you can take to create a Chrome extension that records the screen and saves the recording:
+
+First, you'll need to use the Chrome Extension API to access the screen recording functionality of the browser. You can do this by using the chrome.desktopCapture API and requesting access to the user's screen.
+
+Next, you'll need to use a library or API to actually 
+record the screen.
+One popular library for this is the MediaRecorder API,
+which is built into most modern browsers.
+
+Once you have access to the screen recording functionality 
+and have started the recording, you'll need to handle the
+data that is generated. You can use the ondataavailable
+event to access the data as it is generated, and 
+then use the save method to save the recording to a file.
+
+Finally, you'll need to package your extension and submit
+it to the Chrome Web Store so that other users can install
+and use it.
+
+Please note that Google is strict on the use of screen 
+recording in extensions so you will need to check the 
+developer policies for this feature before proceeding.
